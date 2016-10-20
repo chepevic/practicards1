@@ -1,1 +1,0 @@
-alert('Está Conectado el JS')
