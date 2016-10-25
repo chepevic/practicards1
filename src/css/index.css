@@ -1,0 +1,110 @@
+/*GENERAL*/
+body, html{
+
+	font-size: 16px;
+}
+
+
+/*HEADER*/
+
+.header{
+	height: 90px;
+}
+
+.header-logo{
+	display:inline-block;
+	height: 100%;
+	position: relative;
+	width: 20%;
+}
+.header-logo img{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width:100%;
+}
+.header-main .links{
+	font-size:0.88em;
+	height: 45px;
+	line-height: 45px;
+}
+.header-main .links a{
+	color:#333333;
+	}
+.header-main .links a:nth-child(2){
+	float:right;
+
+	}
+.header-main{
+	box-sizing: border-box;
+	display: inline-block;
+	float:right;
+	height: 45px;
+	line-height: 45px;
+	padding: 0px 70px;
+	width: 80%;
+}
+.header-main .mainlist{
+	display: flex;
+	font-size: 1.12em;
+	justify-content:space-between;
+	margin: 0;
+	padding: 0;
+
+}
+.header-main .main-list-item{
+	display: inline-block;
+	
+
+}
+.header-main .main-list-item a{
+	color:black;
+	text-decoration: none;
+
+}
+.header-main .main-list-item a:hover{
+	color:#f80000;
+	}
+/*FIN HEADER*/
+
+
+/*BANNER*/
+
+.banner{
+	background-image: url("../img/hero-finance.jpg");
+	background-repeat: no-repeat;
+	background-position:right center ;
+	min-height: 500px;
+	position: relative;
+}
+.banner-bg{
+	background-image: url("../img/background-banner.png");
+	background-repeat: no-repeat;
+
+	min-height: 500px;
+}
+.banner-text{
+	color:white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 30px;
+	position: absolute;
+	bottom:0;
+	top:0;
+	width:500px;
+}
+.banner-text-contentbuttons{
+display: flex;
+
+
+}
+.banner-text-contentlinks{
+	display: flex;
+
+}
+
+/*FIN BANNER*/
