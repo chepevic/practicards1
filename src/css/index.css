@@ -2,13 +2,20 @@
 body, html{
 
 	font-size: 16px;
-}
 
+}
+/*ITILIDAD*/
+.u-container{
+	margin:0 auto;
+	max-width: 1245px;
+
+}
 
 /*HEADER*/
 
 .header{
 	height: 90px;
+
 }
 
 .header-logo{
@@ -16,6 +23,7 @@ body, html{
 	height: 100%;
 	position: relative;
 	width: 20%;
+	behavior:url(PIE/pie.htc);
 }
 .header-logo img{
 	position: absolute;
@@ -25,11 +33,13 @@ body, html{
 	right: 0;
 	margin: auto;
 	width:100%;
+	
 }
 .header-main .links{
 	font-size:0.88em;
 	height: 45px;
 	line-height: 45px;
+
 }
 .header-main .links a{
 	color:#333333;
@@ -38,6 +48,7 @@ body, html{
 	float:right;
 
 	}
+	
 .header-main{
 	box-sizing: border-box;
 	display: inline-block;
@@ -57,7 +68,6 @@ body, html{
 }
 .header-main .main-list-item{
 	display: inline-block;
-	
 
 }
 .header-main .main-list-item a{
@@ -131,6 +141,7 @@ display: flex;
 
 .erpCLoud{
 	display: flex;
+	justify-content: center;
 }
 .erpCloud-text{
 	display: flex;
