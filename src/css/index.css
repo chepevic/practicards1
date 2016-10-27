@@ -224,3 +224,130 @@ display: flex;
 /* FIN CONTENT CARDS*/
 
 
+/*PLANEACION*/
+
+.planning{
+	background-color:#fafafa;
+	padding:60px 30px;
+}
+.planning-content{
+	display: flex;
+}
+.planning-content-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+hr{
+	width: 100%;
+}
+.planning-content-text  .list{
+	list-style: none;
+}
+.planning-content-text  .list-item{
+	margin:0 0 25px;
+	}
+.planning-content-text .contentbutton{
+	display: flex;
+	justify-content: center;
+
+}
+.planning-content-text .contentbutton-button{
+	padding:18px 61px;
+	margin:10px;
+	border:1px solid #006699;
+	color>#006699;
+	background: transparent;
+}
+.planning-content-text .contentbutton-button:hover{
+	border:solid 1px black;
+	color: black;
+	}
+/*FIN PLANEACION*/
+
+/*FOOTER*/
+.footer{
+	background-color: #fafafa;
+
+}
+
+.footer-contentcols{
+	background-color: #fafafa;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-contentcols-col{
+	padding: 0px 30px 50px 30px;
+
+}
+.footer-contentcols-col .title{
+	color:#1f4f82;
+	margin-bottom:30px;
+}
+.footer-contentcols-col .list{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+
+}
+.footer-contentcols-col .list-item{
+	margin:0 0 15px;
+}
+.footer-contentcols-col .list-item-link{
+	font-size: 0.88em;
+	text-decoration: none;
+}
+.footer-title{
+	font-size:20px;
+}
+/*FIN FOOTER*/
+
+/*FOOTER BOTTOM*/
+
+.footer-contentbottom{
+	position: relative;
+
+}
+.footer-contentbottom-title{
+	font-size:1.25em;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.footer-contentbottom-title span{.
+	color:#f80000;
+
+}
+.footer-contentbottom-list-links{
+	font-size:0.69em;
+	list-style: none;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.footer-contentbottom-list-links .item{
+	display: inline-block;
+}
+.footer-contentbottom-list-links .item-link{
+	text-decoration: none;
+	color: black;
+	}
+
+.footer-contentbottom-list-social{
+	background: red;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+
+.footer-contentbottom-list-social .item{
+	display: inline-block;
+}
+..footer-contentbottom-list-social .item-link{
+	text-decoration: none;
+	padding: 10px;
+	}
+/*FIN FOOTER BOOTOM*/
