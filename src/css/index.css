@@ -118,14 +118,35 @@ body, html{
 display: flex;
 }
 .banner-text-contentbuttons .button{
+	box-sizing: border-box;
 	color:006699;
 	font-size: 1.06em;
 	margin-right:8px;
-	padding: 8px 61px;
+	min-width: 250px;
+	padding: 18px 30px;
 }
+
+.banner-text-contentbuttons .button span{
+	font-size: 1.3em;
+	margin-left: 15px;
+	position: relative;
+	top:3px;
+	}
 .banner-text-contentlinks{
 	display: flex;
 
+}
+.banner-text-contentlinks .icono-one{
+	font-size: 1.3em;
+position: relative;
+top: 45px;
+right: 70px;
+}
+.banner-text-contentlinks .icono-dos{
+font-size: 1.3em;
+position: relative;
+top: 45px;
+right: 150px;
 }
 .banner-text-contentlinks .links{
 	color:white;
@@ -161,9 +182,22 @@ display: flex;
 	display: flex;
 	justify-content: center;
 }
+.erpCloud-text-content-Buttons span{
+	font-size: 1.3em;
+	margin-left: 25px;
+	position: relative;
+	top: 3px;
+
+}
+.erpCloud-text-content-Buttons{
+	
+}
+
 .erpCloud-text-content-Buttons .button{
-	padding: 18px 61px;
+	box-sizing: border-box;
+	padding: 18px 30px;
 	margin:10px;
+	min-width: 250px;
 	border: solid 1px #006699;
 	color:#006699;
 }
@@ -259,6 +293,12 @@ hr{
 	color>#006699;
 	background: transparent;
 }
+.planning-content-text .contentbutton-button span{
+	font-size: 1.3em;
+	margin-left: 25px;
+	position: relative;
+	top: 3px;
+}
 .planning-content-text .contentbutton-button:hover{
 	border:solid 1px black;
 	color: black;
@@ -267,7 +307,7 @@ hr{
 
 /*FOOTER*/
 .footer{
-	background-color: #fafafa;
+	margin-bottom: 40px;
 
 }
 
@@ -334,7 +374,6 @@ hr{
 	}
 
 .footer-contentbottom-list-social{
-	background: red;
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
@@ -346,8 +385,14 @@ hr{
 .footer-contentbottom-list-social .item{
 	display: inline-block;
 }
-..footer-contentbottom-list-social .item-link{
+.footer-contentbottom-list-social .item-link{
 	text-decoration: none;
 	padding: 10px;
 	}
+.footer-contentbottom-list-social .item-link span{
+font-size: 1.6em;
+}
+.footer-contentbottom-list-social .item-link:hover span{
+color: red;
+}
 /*FIN FOOTER BOOTOM*/

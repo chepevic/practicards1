@@ -1,36 +1,163 @@
+
 <!DOCTYPE html>
-<html lang="en">
+  <meta charset="UTF-8">
 <head>
-	<meta charset="UTF-8">
-	<title>Prueba</title>
+    <title>Bocadillo burbuja para indicar que estás hablando</title>
+    <style type="text/css">
+        body{
+            margin:20px;
+        }
+        #contenedor{
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        #bocadillo {
+           padding: 10px;
+           width: 220px; 
+           border-radius: 10px;
+           background-color: #f80;
+           font-family: "trebuchet ms", tahoma, verdana, sans-serif;
+           font-size: 1.4em;
+        }
+        #bocadillo:before {
+           content:"";
+           position: absolute;
+           width: 0;
+           height: 0;
+           border-top: 20px solid transparent;
+           border-right: 30px solid #f80;
+           border-bottom: 20px solid transparent;
+           margin: 10px 0 0 -32px;
+        }
+        #bocadilloarriba {
+           padding: 10px;
+           width: 220px; 
+           border-radius: 10px;
+           background-color: #8f0;
+           font-family: "trebuchet ms", tahoma, verdana, sans-serif;
+           font-size: 1.4em;
+        }
+        #bocadilloarriba:before {
+           content:"";
+           position: absolute;
+           width: 0;
+           height: 0;
+           border-bottom: 30px solid #8f0;
+           border-right: 20px solid transparent;
+           border-left: 20px solid transparent;
+           margin: -30px 0 0 90px;
+        }
+        
+        #triangulo{
+           width: 0;
+           height: 0;
+           border-top: 30px solid #55f;
+           border-right: 20px solid transparent;
+           border-left: 20px solid transparent;
+        }
+
+        #ejercicio{
+          background: white;
+          border-left: 30px solid red;
+          border-right: 30px solid transparent;
+          border-bottom: 30px solid transparent;
+          border-top:30px solid transparent;
+          display: inline-block;
+;          
+        }
+
+
+        #cuadro{
+          background-color: #1f4f82;
+          border-radius: 10px;
+          color:white;
+          
+          margin: auto;
+          padding: 10px;
+          width: 300px
+        }
+        #cuadro:before{
+          border-left:20px solid transparent;
+          border-right: solid 30px #1f4f82;
+          border-top:solid 20px transparent;
+          border-bottom:solid 20px transparent;
+          content: "";
+          margin: 20px 0 0 -50px;
+          position: absolute;
+          
+        }
+        #cuadro1{
+          background:linear-gradient(#00FFFF, #ADD8E6);
+          border:solid 1px black;
+          width: 600px;
+          height: auto;
+          padding: 10px;
+          margin: auto;
+        }
+
+        h2.contornear{
+          background: grey;
+          text-shadow: 1px 1px white, -1px -1px #333;
+    color: #fff;
+        }
+
+        #cuadro3{
+    width: 300px;
+    height: auto;
+    padding: 30px 15px 30px 15px;
+    border: 1px solid red;
+    box-sizing:border-box;
+    text-transform: capitalize;
+    
+
+        }
+    </style>
 </head>
-<style type="text/css">
 
-#triangulo {
-	border:solid;
-padding: 10px;
-width: 220px;
-border­radius: 10px;
-background­color:red;
-font­family: "trebuchet ms", tahoma, verdana, sans­serif;
-font­size: 1.4em;
-}
-#triangulo:before {
-content:"";
-position: absolute;
-width: 0;
-height: 0;
-border­bottom: 30px solid #8f0;
-border­right: 20px solid transparent;
-border­left: 20px solid transparent;
-margin: ­30px 0 0 90px;
-}
-</style>
-<body>
+<body style="background-color:yellow;">
 
-<div id="triangulo">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore a minus temporibus provident officiis aliquam laudantium, quas sunt, ullam magnam consequatur ex repellat quibusdam ratione, sit doloremque saepe suscipit doloribus.
+<div id="contenedor">
+    <h1>Cómo hacer un bocadillo</h1>
+    <div id="bocadillo">
+        Probando el bocadillo o "globo de hablar", o como le llames.
+    </div>
+
+
+   
+    <div id="bocadilloarriba">
+        Probando otro bocadillo con el triangulo arriba.
+    </div>
+    <br /><br />
+    <div id="triangulo">
+        
+    </div>
 </div>
-	
+<br><br>
+<div id="ejercicio">
+ </div>
+<br><br>
+ <div id="cuadro">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis pariatur obcaecati fugiat commodi earum officia non sunt saepe optio, soluta, suscipit deleniti adipisci, fuga! Dolores deserunt ratione aliquam, vel ipsam!
+
+ </div>
+ <br /><br />
+<div id="cuadro1">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ex quidem veniam deleniti voluptates, amet corporis quibusdam odit facere, dicta aperiam eligendi blanditiis asperiores animi tenetur laborum, necessitatibus, culpa. Est!<br><br>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ex magni voluptatem vero autem nesciunt quod explicabo dolorem sunt, repellat recusandae excepturi perspiciatis, et obcaecati animi commodi amet aliquid optio!
+
+
+</div>
+
+<div id="cuadro3">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, aut obcaecati dolorem ut veritatis dicta inventore iure fugit reprehenderit maxime enim voluptate. Consectetur quod culpa, iusto corrupti aspernatur ea, architecto.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores rerum earum, aut voluptate illo repudiandae nesciunt eos natus accusantium maxime vero voluptatum blanditiis laboriosam dolorem veniam quasi excepturi iusto repellat.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde doloribus dolore et id, quae minus commodi, dolorem ullam recusandae facilis ipsam ea voluptas itaque quia. Neque architecto in, laboriosam enim!
+
+
+
+</div>
+<h2 class="contornear">PRUEBA</h2>
+
+
 </body>
-</html>
+</html>CTYPE html>
