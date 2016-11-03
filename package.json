@@ -1,31 +1,24 @@
 {
-  "name": "StartReactjs",
+  "name": "Practica1-RDS",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/daguiheso/StartReactjs.git"
+    "url": "https://github.com/daguiheso/Practica1-RDS.git"
   },
-  "author": "Daniel Hernandez",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/daguiheso/StartReactjs/issues"
+    "url": "https://github.com/daguiheso/Practica1-RDS/issues"
   },
-  "homepage": "https://github.com/daguiheso/StartReactjs",
-  "dependencies": {
-    "babel-preset-react": "^6.5.0",
-    "babelify": "^7.2.0",
-    "browserify": "^13.0.0",
-    "jquery": "^2.2.1",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "rect": "^1.2.1"
-  },
+  "homepage": "https://github.com/daguiheso/Practica1-RDS",
   "devDependencies": {
-    "watchify": "^3.7.0"
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
   }
 }
