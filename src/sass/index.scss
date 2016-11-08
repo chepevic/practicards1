@@ -201,7 +201,9 @@ body, html {
 }
 
 /* CARDS */
+hr{ border:solid 1px #bfbfbf;
 
+}
 .content-cards {
   margin: 50px 0;
   display: flex;
@@ -212,8 +214,10 @@ body, html {
   border: 1px solid #eee;
   width: 48%;
   &-img {
+    width: 196px;
     img {
       height: 100%;
+      max-width: 196px;
     }
   }
   &-text {
@@ -235,10 +239,12 @@ body, html {
 
 .planning {
   background-color: #fafafa;
-  padding: 60px 30px;
+  padding: 60px 0px;
   &-content {
     display: flex;
+    padding:0px 0px;
     &-text {
+      padding-left:30px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -251,6 +257,7 @@ body, html {
           margin: 0 0 25px;
         }
       }
+      
       .contentButtons {
         display: flex;
         justify-content: center;
